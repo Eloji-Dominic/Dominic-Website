@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin DashBoard For Social Data Analytics</title>
+  <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <div class="logo-image">
+        <img src="./logo.png" alt="Coders villa icon">
+      </div>
+      <div class="logo-name">
+        Coders Villa
+      </div>
+    </div>
+
+    <div class="menu-items">
+      <ul class="navLinks">
+        <li class="navList active">
+          <a href="#">
+            <ion-icon name="home-outline"></ion-icon>
+            <span class="links">Dashboard</span>
+          </a>
+        </li>
+        <li class="navList">
+          <a href="#">
+            <ion-icon name="folder-outline"></ion-icon>
+            <span class="links">Content</span>
+          </a>
+        </li>
+        <li class="navList">
+          <a href="#">
+            <ion-icon name="analytics-outline"></ion-icon>
+            <span class="links">Analytics</span>
+          </a>
+        </li>
+        <li class="navList">
+          <a href="#">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="links">Likes</span>
+          </a>
+        </li>
+        <li class="navList">
+          <a href="#">
+            <ion-icon name="chatbubbles-outline"></ion-icon>
+            <span class="links">Comments</span>
+          </a>
+        </li>
+      </ul>
+      
+      <ul class="bottom-link">
+        <li>
+          <a href="#">
+            <ion-icon name="log-out-outline"></ion-icon>
+            <span class="links">Logout</span>
+          </a>
+        </li>
+        <li class="mode">
+          <a href="#">
+            <ion-icon class="iconExchange" name="sunny-outline"></ion-icon>
+            <span class="links js-link">Light Mode</span>
+            <div class="darkToggle">
+              <span class="switch"></span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="dashboard">
+    <div class="top">
+      <ion-icon class="navToggle" name="menu-outline"></ion-icon>
+      <div class="searchBox">
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="search" placeholder="Search">
+      </div>
+      <img src="./logo.png">
+    </div>
+    <div class="container">
+      <div class="overview">
+        <div class="title">
+          <ion-icon name="speedometer-outline"></ion-icon>
+          <span class="text">Dashboard</span>
+        </div>
+        <div class="boxes">
+          <div class="box box1">
+            <ion-icon name="eye-outline"></ion-icon>
+            <span class="text">Total Views</span>
+            <span class="number">112,567</span>
+          </div>
+          <div class="box box2">
+            <ion-icon name="chatbubbles-outline"></ion-icon>
+            <span class="text">Total Comments</span>
+            <span class="number">100,560</span>
+          </div>
+          <div class="box box3">
+            <ion-icon name="share-social-outline"></ion-icon>
+            <span class="text">Total Shares</span>
+            <span class="number">200,780</span>
+          </div>
+        </div>
+      </div>
+      <div class="activity">
+        <div class="title">
+          <ion-icon name="time-outline"></ion-icon>
+          <span class="text">Recent Members</span>
+        </div>
+      </div>
+      <div class="activity-data">
+        <div class="data names">
+          <span class="data-title">Name</span>
+        </div>
+        <div class="data email">
+          <span class="data-title">Email</span>
+        </div>
+        <div class="data joined">
+          <span class="data-title">Joined</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="./dashboard.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

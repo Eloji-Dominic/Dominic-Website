@@ -1,0 +1,40 @@
+{
+  "item": [
+    {
+      "name": "Rahul Kumar",
+      "email": "rkumar@gmail.com",
+      "joined": "2022-08-25"
+    },
+    {
+      "name": "Raj Kumar",
+      "email": "rajkr@gmail.com",
+      "joined": "2022-08-25"
+    },
+    {
+      "name": "Nisha Kumari",
+      "email": "knisha@gmail.com",
+      "joined": "2022-08-25"
+    },
+    {
+      "name": "Rajesh Singh",
+      "email": "singhrajesh@gmail.com",
+      "joined": "2022-08-25"
+    },
+    
+    {
+      "name": "Bikash Singh",
+      "email": "bikashsingh@gmail.com",
+      "joined": "2022-08-25"
+    },
+    {
+      "name": "Ram Prasad",
+      "email": "rprasad@gmail.com",
+      "joined": "2022-08-25"
+    },
+    {
+      "name": "Anisha Singh",
+      "email": "singhanisha@gmail.com",
+      "joined": "2022-08-25"
+    }
+  ]
+}
